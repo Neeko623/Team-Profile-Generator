@@ -1,0 +1,29 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "This app generate a webpage that displays my team's basic info, so that I have quick access to their emails and GitHub profiles",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "jest": "NO TESTS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neeko623/Team-Profile-Generator.git"
+  },
+  "keywords": [
+    "team-profile-generator"
+  ],
+  "author": "HUI SHAN TANG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neeko623/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/Neeko623/Team-Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3",
+    "jest": "^26.6.3"
+  }
+}
