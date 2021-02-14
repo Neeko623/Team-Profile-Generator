@@ -54,7 +54,7 @@ const render = (employees) => {
               <label for="reserve-email" id="reserve-email">Email:<a href="mailto: ${engineer.getEmail()}"> ${engineer.getEmail()}</a></label>
             </div>
             <div class="form-group">
-            <label for="reserve-phone" id="github">Github: <a href="https://github.com/${engineer.github}" class="contact-btn">${engineer.github}</a>
+            <label for="reserve-phone" id="github">Github: <button class="contact-btn" onclick=" window.open('https:github.com/neeko623')">neeko623</button>
             </div>				
             </form>
         </div>
