@@ -10,8 +10,6 @@ A Node.js command line application that allows user input from inquirer to gener
 2. Engineer
 3. Intern
 
-## Screenshot
-![screenshot](screenshots/Team Profile_Screenshot_01.png)
 ## languages
 Node
 Jest
