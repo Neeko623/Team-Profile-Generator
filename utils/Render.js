@@ -11,7 +11,6 @@ const render = (employees) => {
       <div class="col-md-3">
       <div class="card cardbody">
       <div class="card-header" style="background: #B19CD9">
-      <div class="pic"><img src="" alt=""></div>
       <div class="name">${manager.name}</div>
       <div class="desc">${manager.getRole()}</div>
       </div>
@@ -42,7 +41,6 @@ const render = (employees) => {
     <div class="col-md-3">
     <div class="card cardbody">
     <div class="card-header" style="background: #B19CD9">
-    <div class="pic"><img src="" alt=""></div>
     <div class="name">${engineer.name}</div>
     <div class="desc">${engineer.getRole()}</div>
     </div>
@@ -73,7 +71,6 @@ const render = (employees) => {
        <div class="col-md-3">
           <div class="card cardbody">
              <div class="card-header" style="background: #B19CD9">
-                <div class="pic"><img src="" alt=""></div>
                 <div class="name">${intern.name}</div>
                 <div class="desc">${intern.getRole()}</div>
              </div>
@@ -186,13 +183,6 @@ module.exports = (employeeHtml) => {
           100% {
             background-position: left top;
           }
-        }
-        
-        .pic img {
-          padding-left: 20px;
-          width: 100px;
-          height: 100px;
-          border-radius: 50%;
         }
         
         .name {
