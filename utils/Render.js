@@ -160,31 +160,6 @@ module.exports = (employeeHtml) => {
           font-size: 3rem;
         }
         
-        .pic {
-          display: inline-block;
-          padding: 20px;
-          background: linear-gradient(130deg, #74b9ff, #e66767);
-          margin: auto;
-          border-radius: 50%;
-          background-size: 200% 200%;
-          animation: animated-gradient 2s linear infinite;
-        }
-        
-        @keyframes animated-gradient {
-          25% {
-            background-position: left bottom;
-          }
-          50% {
-            background-position: right bottom;
-          }
-          75% {
-            background-position: right top;
-          }
-          100% {
-            background-position: left top;
-          }
-        }
-        
         .name {
           text-align: center;
           color: #f2f2f2;
@@ -232,7 +207,7 @@ module.exports = (employeeHtml) => {
         .cardbody {
           width: 300px;
           border-radius: 10px;
-
+        }
         </style>
         <div class="jumbotron" style="background: #8e24cd" >
            <h1 class="text-center" >My Awesome Team</h1>

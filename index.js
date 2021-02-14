@@ -238,7 +238,7 @@ const newEmployee = () => {
 };
 // Write output HTML
 const renderPage = (fileName) => {
-	fileName = fs.writeFile("output/team.html", render(employees), (err) => {
+	fileName = fs.writeFile("/Users/neekotang/Bootcamp/Team-Profile-Generator/output/team.html", render(employees), (err) => {
 		if (err) {
 			console.log("Error: " + err);
 		} else {
